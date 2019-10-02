@@ -32,3 +32,4 @@ installation
 //material
 npm install vue-material --save
 npm install vuex --save
+npm install es6-promise --save
