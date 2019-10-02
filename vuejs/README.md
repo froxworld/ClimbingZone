@@ -27,3 +27,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+installation 
+//material
+npm install vue-material --save
+npm install vuex --save

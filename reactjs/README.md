@@ -71,4 +71,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 //probleme au demarrage de max user 
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
+lancement yarn.js run start ou
+
 
