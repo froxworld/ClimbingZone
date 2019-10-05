@@ -3,11 +3,30 @@ package fr.auxietre.spring;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.io.IOException;
+
 @SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
 
+		{
+//			Process p;
+//			try {
+//				String[] cmd = {"sh", "/sudo service mysql start"};
+//				p = Runtime.getRuntime().exec(cmd);
+//
+//				p.waitFor();
+//			} catch (InterruptedException | IOException e) {
+//				e.printStackTrace();
+//			}
+//
+//
+//			System.out.println("sudo service mysql start");
+
+
+			SpringApplication.run(Application.class, args);
+		}
+
+	}
 }
