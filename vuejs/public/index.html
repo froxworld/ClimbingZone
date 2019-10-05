@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>vuejs</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/menu.css">
+    <style>
+      .main.container {
+        padding-top: 50px;
+      }
+    </style>
+
+
+    <title>Climbing zone</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but vuejs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+      <div class="ui inverted fixed menu">
+        <div class="Header item">
+          <img src="Vue.svg" alt="logo vue.svg" width="40px"/> Climbing Zone
+        </div>
+      </div>
+
+      <div class="ui main container">
+        <h1 v-if="awesome">Vue est extraordinaire !</h1>
+        <template v-show="ok">
+          <h1>Titre</h1>
+          <p>Paragraphe 1</p>
+          <p>Paragraphe 2</p>
+        </template>
+      </div>
+    <script src="app5"></script>
+
+<!--      <div>-->
+<!--        <input type="checkbox" v-model="succes">-->
+<!--        <div id="app-4">-->
+<!--          <ol>-->
+<!--            <li v-on v-for="climber in climbers">-->
+<!--              <i class="close icon" v-on:click="close">{{ climber }}</i>-->
+<!--            </li>-->
+<!--          </ol>-->
+<!--        </div>-->
+<!--      </div>-->
+      <div class="ui success message">Bravo</div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
   </body>
 </html>
+
